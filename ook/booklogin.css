@@ -1,0 +1,68 @@
+.login-form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left:0;
+    top:0;
+    z-index:10000;
+    height: 100%;
+    width:
+     100%;
+}
+.login-form-container.active{
+    right:0px;
+}
+.login-form-container form{
+  background-color: white;
+  border:1px solid black;
+  width: 40rem;
+  padding: 2rem;
+  margin:2rem;
+
+}
+.login-form-container form h3{
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.login-form-container form span{
+    display: block;
+    font-size: 1.5rem;
+    padding-top:.5rem;
+}  
+.login-form-container form .box{
+    border-radius:.2rem;
+    border: 1px solid black;
+    font-size: 1.5rem;
+    width: 100%;
+    padding:.5rem .2rem;
+}
+.login-form-container form .checkbox{
+display: flex;
+align-items: center;
+gap: .5rem;
+padding: 1rem 0;
+}
+.login-form-container form .checkbox label{
+    font-size: 1.5rem;
+    color:rgb(20, 24, 24);
+
+}
+.login-form-container form  .btn{
+    width: 100%;
+    text-align: center;
+
+}
+.login-form-container form p{
+    padding-top:.2rem;
+    font-size: .9rem;
+    color:rgb(14, 169, 117)
+}
+.login-form-container #close-login-btn{
+    font-size: 4rem;
+    position: absolute;
+    top:1.5rem;
+    right:2.5rem;
+    cursor: pointer;
+} 

@@ -1,0 +1,66 @@
+body,html{
+  overflow-x:hidden;
+}
+.bor{
+  background-color: rgb(23, 56, 83);
+  
+  
+  box-shadow: 5px 5px 20px rgb(183, 22, 22);
+}
+.bimmg{
+ 
+
+
+        height: 100vh;
+           width:100vw;
+           background-position: bottom;
+           background-repeat: no-repeat;
+           background: linear-gradient(to bottom, #2f2b4b, #302b63, #24243e);
+  
+    background-size: cover;
+   
+
+}
+
+
+
+.form-container {
+ text-align: center;
+  display: block;
+  width:500px;
+  margin-top: 20%;
+ 
+  
+}
+.topext{
+  border: #08292c;
+  color:rgb(218, 21, 21);
+  text-shadow:1px 2px 2px rgb(85, 5, 5);;
+}
+
+
+.form-container input{
+  margin-bottom:12px;
+  outline: none;
+border-color:rgb(218, 21, 21);
+border-radius: 5px;
+color: rgb(2, 1, 1);
+width:400px;
+height:40px;
+background: #dbf5f7;
+}
+.form-container button{
+ 
+  color:rgb(218, 21, 21);;
+  background-color:rgba(82, 213, 191, 0.997);
+  width:100px;
+  height: 40px;;
+  border-radius: 10px;
+  border-color:rgb(218, 21, 21);
+  margin-bottom: 30px;
+  
+}
+.form-container button:hover{
+  background-color: aqua;
+  transform:scale(1.2);
+}
